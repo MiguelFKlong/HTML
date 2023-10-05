@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>input</title>
+</head>
+<!-- 
+    input type
+        button -> Se comporta igual que un boton <button>
+        submit -> Se utiliza para enviar el formulario
+
+        date -> Se utiliza para introducir una fecha
+        datetime -> obsoleto
+        datetime-local -> fecha y hora, no funciona en firefox
+        time -> Se utiliza para introducir una hora
+            TIP
+                Se recomienda usar datetime-local y time para seleccionar una fecha y hora
+                hidden -> Campo oculto, puede contener valor pero no se mostrara
+        month -> Se utiliza para introducir mes
+        week -> Se utiliza para introducir el numero de semana del año
+        
+        search -> Se utiliza para las barras de busqueda
+        tel -> Se utiliza para introducir numeros telefonicos
+        email -> Se utiliza para introducir un email
+        password -> Se utiliza para contraseñas
+        url ->Se utiliza para introducit urls
+
+        color -> Se utiliza para especificar un color
+        text ->  Valor por defecto
+        number -> Se utiliza para valores numericos
+        range -> Se utiliza para establecer un rango
+        reset -> Se utiliza para resetear el formulario
+    
+ -->
+<body>
+    <form>
+        <!-- <input>
+         <input type="button" value="Enviar input">   son difrentes 
+        <input type="submit" value="Enviar input">
+        <button>Enviar</button>
+
+
+        <input type="datetime-local">
+        <input type="date">
+        <input type="time">
+        <input type="month">
+        <input type="week"> -->
+
+        <div>
+        <label>search
+            <input type="search">
+          </label>
+        </div>
+
+        <div>
+        <label>telefono
+            <input type="tel">
+          </label>
+        </div>
+
+        <label>email
+            <input type="email">
+          </label>
+        </div>
+       
+        <div>
+        <label>password
+            <input type="password">
+          </label>
+        </div>
+
+        <div>
+        <label>url
+            <input type="url">
+          </label>
+        </div>
+    </form>
+
+
+</body>
+</html>

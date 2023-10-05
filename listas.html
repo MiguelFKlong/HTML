@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>listas</title>
+</head>
+
+<!-- 
+    Las liestas en html sirven para listar contenido. En funcion del tipo de contenido de nuestra lista tenemos tres tipos de listas:
+
+        ul -> unordered list: se utilizan cuando el orden de los elementos no influye (lista de compras)
+
+        ol -> ordered list: Se utilizan cuando el orden de los elementos es importante (top 10)
+
+        Cada elemento de la lista se representa con la etiqueta <li>, tanto en las ul como en las ol
+        
+        Se puede construir lsitas anidadas teniendo en uno de los li otro ul/ol segun sea necesario
+
+        <ol>
+            <li>
+                HTML
+                <ol>
+                    <li>Estructura</li>
+                    <li>Sintaxis</li>
+                    <li>Etiquetas</li>
+                </ol>
+            </li>
+            <li>CSS</li>
+            <li>JAVASCRIPT</li>
+        </ol>
+
+        dl -> definition list: se utilizan para hacer una lista de definiciones (diccionario)
+        
+        Cada elemento de dl lleva 2 etiquetas:
+            dt-> definition term: el termino que vamos a definir
+            dd-> definition description: La descripcion del termino
+ -->
+
+<body>
+    <!-- 
+        Atributos de las listas
+
+        ol ->
+            type: Estilo de numeracion(1,A,a,I,i)
+            start:Inicio de las secuencia (un numero)
+        ul ->
+            type: Estilo de los items(disc, square,)
+     -->
+    <h1>Listas</h1>
+
+    <nav>
+        <ul type="circle">
+            <li><a href="#post-1">Post 1</a></li>
+            <li><a href="#post-2">Post 2</a></li>
+        </ul>
+    </nav>
+<h2>Lista de la compra</h2>
+    <ul type="square">
+        <li>Pan</li>
+        <li>Leche</li>
+        <li>Huevos</li>
+    </ul>
+
+<h2>Orden de aprendizaje</h2>
+    <ol type="I" start="1">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVASCRIP</li>
+    </ol>
+
+<h2>Lenguajes para el desarrollo web</h2>
+<dl>
+    <dt>HTML</dt>
+    <dd>HyperText Markup Languaje: Es un lenguaje de marcado</dd>
+
+    <dt>CSS</dt>
+    <dd>Cascada style sheets: Es un lenguaje de diseño</dd>
+
+    <dt>JAVASCRIP</dt>
+    <dd>Es un lenguaje de programacion</dd>
+</dl>
+
+<h2>Ejemplo</h2>
+<ol>
+    <li>
+        HTML
+        <ol>
+            <li>Estructura</li>
+            <li>Sintaxis</li>
+            <li>Etiquetas</li>
+        </ol>
+    </li>
+    <li>CSS</li>
+    <li>JAVASCRIPT</li>
+</ol>
+</body>
+</html>
